@@ -1,0 +1,364 @@
+[1.301s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.301s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f32c3e92d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f32c4157100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f32c4157100>>)
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.363s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/topi/ws'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['ignore', 'ignore_ament_install']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'ignore'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'ignore_ament_install'
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['colcon_pkg']
+[1.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'colcon_pkg'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['colcon_meta']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['ros']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'ros'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['cmake', 'python']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'cmake'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'python'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extensions ['python_setup_py']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/Notebooks) by extension 'python_setup_py'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['ignore', 'ignore_ament_install']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'ignore'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'ignore_ament_install'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['colcon_pkg']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'colcon_pkg'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['colcon_meta']
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'colcon_meta'
+[1.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'ros'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['cmake', 'python']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'cmake'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'python'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extensions ['python_setup_py']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/assets) by extension 'python_setup_py'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['ignore', 'ignore_ament_install']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ignore'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ignore_ament_install'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['colcon_pkg']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'colcon_pkg'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['colcon_meta']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'colcon_meta'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extensions ['ros']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign) by extension 'ros'
+[1.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign' with type 'ros.ament_cmake' and name 'ros_ign'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extension 'ignore'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extensions ['colcon_pkg']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_bridge) by extension 'ros'
+[1.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign_bridge' with type 'ros.ament_cmake' and name 'ros_ign_bridge'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extension 'ignore'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extension 'ignore_ament_install'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extensions ['colcon_pkg']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extension 'colcon_pkg'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extensions ['colcon_meta']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extension 'colcon_meta'
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extensions ['ros']
+[1.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ign_gazebo) by extension 'ros'
+[1.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ign_gazebo' with type 'ros.ament_cmake' and name 'ros_ign_gazebo'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extension 'ignore_ament_install'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extensions ['colcon_pkg']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extension 'colcon_pkg'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extensions ['colcon_meta']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extension 'colcon_meta'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extensions ['ros']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/walking_actor) by extension 'ros'
+[1.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/walking_actor' with type 'ros.ament_cmake' and name 'walking_actor'
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.552s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 402 installed packages in /opt/ros/humble
+[1.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_args' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.703s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/topi/ws/build/ros_ign_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/topi/ws/install/ros_ign_bridge', 'merge_install': False, 'path': '/home/topi/ws/src/ros_ign_bridge', 'symlink_install': False, 'test_result_base': None}
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.723s] Level 5:colcon.colcon_core.verb:set package 'ros_ign_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.724s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/topi/ws/build/ros_ign_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/topi/ws/install/ros_ign_gazebo', 'merge_install': False, 'path': '/home/topi/ws/src/ros_ign_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_args' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_cache' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_clean_first' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'cmake_force_configure' from command line to 'False'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'ament_cmake_args' from command line to 'None'
+[1.743s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_cmake_args' from command line to 'None'
+[1.744s] Level 5:colcon.colcon_core.verb:set package 'ros_ign' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.744s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ign' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/topi/ws/build/ros_ign', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/topi/ws/install/ros_ign', 'merge_install': False, 'path': '/home/topi/ws/src/ros_ign', 'symlink_install': False, 'test_result_base': None}
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_args' from command line to 'None'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_target' from command line to 'None'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_clean_first' from command line to 'False'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'cmake_force_configure' from command line to 'False'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'ament_cmake_args' from command line to 'None'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.763s] Level 5:colcon.colcon_core.verb:set package 'walking_actor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.763s] DEBUG:colcon.colcon_core.verb:Building package 'walking_actor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/topi/ws/build/walking_actor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/topi/ws/install/walking_actor', 'merge_install': False, 'path': '/home/topi/ws/src/walking_actor', 'symlink_install': False, 'test_result_base': None}
+[1.782s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.803s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/topi/ws/src/ros_ign_bridge' with build type 'ament_cmake'
+[1.803s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/topi/ws/src/ros_ign_bridge'
+[1.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/topi/ws/src/ros_ign_gazebo' with build type 'ament_cmake'
+[1.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/topi/ws/src/ros_ign_gazebo'
+[1.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_bridge -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_bridge
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_gazebo
+[2.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_bridge -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_bridge
+[2.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_bridge -- -j4 -l4
+[3.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_bridge -- -j4 -l4
+[3.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_bridge
+[3.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign_bridge)
+[3.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_bridge
+[3.437s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge' for CMake module files
+[3.437s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge' for CMake config files
+[3.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign_bridge', 'cmake_prefix_path')
+[3.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.ps1'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.sh'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/bin'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib/pkgconfig/ros_ign_bridge.pc'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib/python3.10/site-packages'
+[3.461s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/bin'
+[3.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.ps1'
+[3.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.dsv'
+[3.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.sh'
+[3.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.bash'
+[3.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.zsh'
+[3.487s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign_bridge/share/colcon-core/packages/ros_ign_bridge)
+[3.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign_bridge)
+[3.568s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge' for CMake module files
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge' for CMake config files
+[3.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign_bridge', 'cmake_prefix_path')
+[3.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.ps1'
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.dsv'
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/hook/cmake_prefix_path.sh'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/bin'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib/pkgconfig/ros_ign_bridge.pc'
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/lib/python3.10/site-packages'
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_bridge/bin'
+[3.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.ps1'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.dsv'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.sh'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.bash'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_bridge/share/ros_ign_bridge/package.zsh'
+[3.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign_bridge/share/colcon-core/packages/ros_ign_bridge)
+[4.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_gazebo
+[4.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+[4.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+[4.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo
+[4.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign_gazebo)
+[4.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo
+[4.796s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo' for CMake module files
+[4.797s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo' for CMake config files
+[4.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign_gazebo', 'cmake_prefix_path')
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.ps1'
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.sh'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/bin'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib/pkgconfig/ros_ign_gazebo.pc'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib/python3.10/site-packages'
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/bin'
+[4.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.ps1'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.sh'
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.bash'
+[4.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.zsh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign_gazebo/share/colcon-core/packages/ros_ign_gazebo)
+[4.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign_gazebo)
+[4.909s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo' for CMake module files
+[4.910s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo' for CMake config files
+[4.910s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign_gazebo', 'cmake_prefix_path')
+[4.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.ps1'
+[4.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.dsv'
+[4.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/hook/cmake_prefix_path.sh'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/bin'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib/pkgconfig/ros_ign_gazebo.pc'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/lib/python3.10/site-packages'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign_gazebo/bin'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.ps1'
+[4.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.sh'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.bash'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.zsh'
+[4.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign_gazebo/share/colcon-core/packages/ros_ign_gazebo)
+[4.954s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/topi/ws/src/ros_ign' with build type 'ament_cmake'
+[4.954s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/topi/ws/src/ros_ign'
+[4.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.017s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/topi/ws/src/walking_actor' with build type 'ament_cmake'
+[5.017s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/topi/ws/src/walking_actor'
+[5.040s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign
+[5.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/walking_actor': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/walking_actor -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/walking_actor
+[5.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/walking_actor' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/walking_actor -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/walking_actor
+[5.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/walking_actor': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/walking_actor -- -j4 -l4
+[5.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign
+[5.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign -- -j4 -l4
+[5.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/walking_actor' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/walking_actor -- -j4 -l4
+[5.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign -- -j4 -l4
+[5.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/walking_actor': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/walking_actor
+[6.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign
+[6.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walking_actor)
+[6.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/walking_actor' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/walking_actor
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor' for CMake module files
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor' for CMake config files
+[6.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('walking_actor', 'cmake_prefix_path')
+[6.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.ps1'
+[6.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.dsv'
+[6.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.sh'
+[6.050s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/bin'
+[6.050s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/lib/pkgconfig/walking_actor.pc'
+[6.051s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/lib/python3.10/site-packages'
+[6.051s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/bin'
+[6.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.ps1'
+[6.070s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/walking_actor/share/walking_actor/package.dsv'
+[6.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.sh'
+[6.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.bash'
+[6.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.zsh'
+[6.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/walking_actor/share/colcon-core/packages/walking_actor)
+[6.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign)
+[6.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign
+[6.094s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign' for CMake module files
+[6.094s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign' for CMake config files
+[6.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign', 'cmake_prefix_path')
+[6.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.ps1'
+[6.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.dsv'
+[6.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.sh'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/bin'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/lib/pkgconfig/ros_ign.pc'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/lib/python3.10/site-packages'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/bin'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.ps1'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign/share/ros_ign/package.dsv'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.sh'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.bash'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.zsh'
+[6.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign/share/colcon-core/packages/ros_ign)
+[6.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walking_actor)
+[6.177s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor' for CMake module files
+[6.178s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor' for CMake config files
+[6.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('walking_actor', 'cmake_prefix_path')
+[6.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.ps1'
+[6.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.dsv'
+[6.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/walking_actor/share/walking_actor/hook/cmake_prefix_path.sh'
+[6.197s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/bin'
+[6.198s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/lib/pkgconfig/walking_actor.pc'
+[6.198s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/lib/python3.10/site-packages'
+[6.198s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/walking_actor/bin'
+[6.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.ps1'
+[6.217s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/walking_actor/share/walking_actor/package.dsv'
+[6.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.sh'
+[6.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.bash'
+[6.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/walking_actor/share/walking_actor/package.zsh'
+[6.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/walking_actor/share/colcon-core/packages/walking_actor)
+[6.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ign)
+[6.258s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign' for CMake module files
+[6.259s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign' for CMake config files
+[6.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ign', 'cmake_prefix_path')
+[6.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.ps1'
+[6.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.dsv'
+[6.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/topi/ws/install/ros_ign/share/ros_ign/hook/cmake_prefix_path.sh'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/bin'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/lib/pkgconfig/ros_ign.pc'
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/lib/python3.10/site-packages'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/topi/ws/install/ros_ign/bin'
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.ps1'
+[6.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/topi/ws/install/ros_ign/share/ros_ign/package.dsv'
+[6.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.sh'
+[6.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.bash'
+[6.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/topi/ws/install/ros_ign/share/ros_ign/package.zsh'
+[6.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/topi/ws/install/ros_ign/share/colcon-core/packages/ros_ign)
+[6.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.304s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.342s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/topi/ws/install/local_setup.ps1'
+[6.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/topi/ws/install/_local_setup_util_ps1.py'
+[6.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/topi/ws/install/setup.ps1'
+[6.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/topi/ws/install/local_setup.sh'
+[6.385s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/topi/ws/install/_local_setup_util_sh.py'
+[6.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/topi/ws/install/setup.sh'
+[6.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/topi/ws/install/local_setup.bash'
+[6.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/topi/ws/install/setup.bash'
+[6.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/topi/ws/install/local_setup.zsh'
+[6.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/topi/ws/install/setup.zsh'

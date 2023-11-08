@@ -1,0 +1,25 @@
+[0.255s] Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target create[0m
+[0.379s] [100%] Built target create
+[0.396s] Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+[0.446s] Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo
+[0.460s] -- Install configuration: ""
+[0.460s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/launch/ign_gazebo.launch.py
+[0.463s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/lib/ros_ign_gazebo/create
+[0.463s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_ign_gazebo
+[0.463s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_ign_gazebo
+[0.464s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.sh
+[0.464s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/ament_prefix_path.dsv
+[0.464s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.sh
+[0.464s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/environment/path.dsv
+[0.465s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.bash
+[0.465s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.sh
+[0.465s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.zsh
+[0.466s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/local_setup.dsv
+[0.466s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.dsv
+[0.466s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ament_index/resource_index/packages/ros_ign_gazebo
+[0.466s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.466s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig.cmake
+[0.467s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/cmake/ros_ign_gazeboConfig-version.cmake
+[0.467s] -- Up-to-date: /home/topi/ws/install/ros_ign_gazebo/share/ros_ign_gazebo/package.xml
+[0.568s] Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo

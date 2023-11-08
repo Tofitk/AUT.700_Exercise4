@@ -1,0 +1,5 @@
+This repository is only here to include the source code.
+
+THIS WILL NOT RUN UNLESS THE WORKSPACE "ws" IS LOCATED DIRECTLY IN YOUR UBUNTU "home"(~/) DIRECTORY!!!!!!!!
+this is because some of the exercise provided source code has hard coded file paths, and for the sake of time management
+this issue has not been fixed.

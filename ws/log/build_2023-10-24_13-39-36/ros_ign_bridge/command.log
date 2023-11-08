@@ -1,0 +1,6 @@
+Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_bridge -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_bridge
+Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_bridge -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_bridge
+Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_bridge -- -j4 -l4
+Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_bridge -- -j4 -l4
+Invoking command in '/home/topi/ws/build/ros_ign_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_bridge
+Invoked command in '/home/topi/ws/build/ros_ign_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_bridge

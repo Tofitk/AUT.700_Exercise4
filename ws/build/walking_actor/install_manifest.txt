@@ -1,0 +1,17 @@
+/home/topi/ws/install/walking_actor/share/walking_actor/launch/cam_world.launch.py
+/home/topi/ws/install/walking_actor/share/walking_actor/rviz/camera.rviz
+/home/topi/ws/install/walking_actor/share/ament_index/resource_index/package_run_dependencies/walking_actor
+/home/topi/ws/install/walking_actor/share/ament_index/resource_index/parent_prefix_path/walking_actor
+/home/topi/ws/install/walking_actor/share/walking_actor/environment/ament_prefix_path.sh
+/home/topi/ws/install/walking_actor/share/walking_actor/environment/ament_prefix_path.dsv
+/home/topi/ws/install/walking_actor/share/walking_actor/environment/path.sh
+/home/topi/ws/install/walking_actor/share/walking_actor/environment/path.dsv
+/home/topi/ws/install/walking_actor/share/walking_actor/local_setup.bash
+/home/topi/ws/install/walking_actor/share/walking_actor/local_setup.sh
+/home/topi/ws/install/walking_actor/share/walking_actor/local_setup.zsh
+/home/topi/ws/install/walking_actor/share/walking_actor/local_setup.dsv
+/home/topi/ws/install/walking_actor/share/walking_actor/package.dsv
+/home/topi/ws/install/walking_actor/share/ament_index/resource_index/packages/walking_actor
+/home/topi/ws/install/walking_actor/share/walking_actor/cmake/walking_actorConfig.cmake
+/home/topi/ws/install/walking_actor/share/walking_actor/cmake/walking_actorConfig-version.cmake
+/home/topi/ws/install/walking_actor/share/walking_actor/package.xml

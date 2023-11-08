@@ -1,0 +1,43 @@
+[0.134s] Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.281s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.392s] -- Detecting CXX compiler ABI info
+[0.495s] -- Detecting CXX compiler ABI info - done
+[0.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.508s] -- Detecting CXX compile features
+[0.509s] -- Detecting CXX compile features - done
+[0.512s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.727s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.951s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.951s] -- Added test 'lint_cmake' to check CMake code style
+[0.953s] -- Added test 'xmllint' to check XML markup files
+[0.955s] -- Configuring done
+[0.958s] -- Generating done
+[0.959s] -- Build files have been written to: /home/topi/ws/build/ros_ign
+[0.965s] Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign
+[0.967s] Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign -- -j4 -l4
+[1.013s] Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign -- -j4 -l4
+[1.045s] Invoking command in '/home/topi/ws/build/ros_ign': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign
+[1.057s] -- Install configuration: ""
+[1.057s] -- Installing: /home/topi/ws/install/ros_ign/share/ament_index/resource_index/package_run_dependencies/ros_ign
+[1.058s] -- Installing: /home/topi/ws/install/ros_ign/share/ament_index/resource_index/parent_prefix_path/ros_ign
+[1.058s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/environment/ament_prefix_path.sh
+[1.058s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/environment/ament_prefix_path.dsv
+[1.058s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/environment/path.sh
+[1.059s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/environment/path.dsv
+[1.059s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/local_setup.bash
+[1.059s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/local_setup.sh
+[1.059s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/local_setup.zsh
+[1.059s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/local_setup.dsv
+[1.060s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/package.dsv
+[1.060s] -- Installing: /home/topi/ws/install/ros_ign/share/ament_index/resource_index/packages/ros_ign
+[1.061s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/cmake/ros_ignConfig.cmake
+[1.061s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/cmake/ros_ignConfig-version.cmake
+[1.061s] -- Installing: /home/topi/ws/install/ros_ign/share/ros_ign/package.xml
+[1.119s] Invoked command in '/home/topi/ws/build/ros_ign' returned '0': AMENT_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign

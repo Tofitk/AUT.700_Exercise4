@@ -1,0 +1,1 @@
+Invoking command in '/home/topi/ws/build/walking_actor': CMAKE_PREFIX_PATH=/home/topi/ws/install/ros_ign_gazebo:/home/topi/ws/install/ros_ign_bridge:/home/topi/ws/install/walking_actor:/home/topi/ws/install/ros_ign:/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/walking_actor -- -j4 -l4

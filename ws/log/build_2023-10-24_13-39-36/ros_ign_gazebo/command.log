@@ -1,0 +1,6 @@
+Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_gazebo
+Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/topi/ws/src/ros_ign_gazebo -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/ros_ign_gazebo
+Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/topi/ws/build/ros_ign_gazebo -- -j4 -l4
+Invoking command in '/home/topi/ws/build/ros_ign_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo
+Invoked command in '/home/topi/ws/build/ros_ign_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/topi/ws/build/ros_ign_gazebo

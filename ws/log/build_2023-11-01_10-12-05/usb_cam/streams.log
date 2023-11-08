@@ -1,0 +1,33 @@
+[0.147s] Invoking command in '/home/topi/ws/build/usb_cam': /usr/bin/cmake /home/topi/ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/usb_cam
+[0.352s] -- The C compiler identification is GNU 11.4.0
+[0.523s] -- The CXX compiler identification is GNU 11.4.0
+[0.542s] -- Detecting C compiler ABI info
+[0.645s] -- Detecting C compiler ABI info - done
+[0.654s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.656s] -- Detecting C compile features
+[0.656s] -- Detecting C compile features - done
+[0.660s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.781s] -- Detecting CXX compile features
+[0.782s] -- Detecting CXX compile features - done
+[0.783s] -- Searching required modules
+[0.789s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.790s] -- Checking for module 'libavcodec'
+[0.807s] --   Found libavcodec, version 58.134.100
+[0.854s] -- Checking for module 'libavutil'
+[0.869s] --   Found libavutil, version 56.70.100
+[0.906s] -- Checking for module 'libswscale'
+[0.921s] --   Found libswscale, version 5.9.100
+[0.961s] -- Checking for module 'libv4l2'
+[0.965s] --   No package 'libv4l2' found
+[0.965s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):
+[0.965s]   A required package was not found
+[0.966s] Call Stack (most recent call first):
+[0.966s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)
+[0.966s]   CMakeLists.txt:10 (pkg_check_modules)
+[0.967s] 
+[0.967s] [0m
+[0.967s] -- Configuring incomplete, errors occurred!
+[0.968s] See also "/home/topi/ws/build/usb_cam/CMakeFiles/CMakeOutput.log".
+[1.019s] Invoked command in '/home/topi/ws/build/usb_cam' returned '1': /usr/bin/cmake /home/topi/ws/src/usb_cam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/topi/ws/install/usb_cam
